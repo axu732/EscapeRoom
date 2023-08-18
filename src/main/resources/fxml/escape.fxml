@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="470.0" prefWidth="680.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="332.0" fitWidth="680.0">
+         <image>
+            <Image url="@../images/fantasy-1709642_1280.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="17.0" layoutY="340.0" text="You quickly stuff your pockets with as much treasure as you can." wrapText="true">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="6.0" layoutY="374.0" prefHeight="34.0" prefWidth="667.0" text="Under the cover of darkness, you swim to shore, and escape capture" wrapText="true">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="7.0" layoutY="408.0" prefHeight="54.0" prefWidth="661.0" text="Congratulations, you have beat the pirate level!" wrapText="true">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

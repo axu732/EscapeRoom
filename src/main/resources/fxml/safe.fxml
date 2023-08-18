@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="470.0" prefWidth="680.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="nz.ac.auckland.se206.controllers.SafeController">
+   <children>
+      <ImageView fitHeight="430.0" fitWidth="687.0" layoutY="33.0">
+         <image>
+            <Image url="@../images/keypad-146161_1280.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="seven" layoutX="153.0" layoutY="256.0" mnemonicParsing="false" onMouseClicked="#clickSeven" prefHeight="64.0" prefWidth="101.0" text="7">
+         <font>
+            <Font size="28.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="eight" layoutX="293.0" layoutY="258.0" mnemonicParsing="false" onMouseClicked="#clickEight" prefHeight="64.0" prefWidth="101.0" text="8">
+         <font>
+            <Font size="28.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="nine" layoutX="428.0" layoutY="257.0" mnemonicParsing="false" onMouseClicked="#clickNine" prefHeight="56.0" prefWidth="113.0" text="9">
+         <font>
+            <Font size="28.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="four" layoutX="154.0" layoutY="175.0" mnemonicParsing="false" onMouseClicked="#clickFour" prefHeight="56.0" prefWidth="101.0" text="4">
+         <font>
+            <Font size="28.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="five" layoutX="296.0" layoutY="177.0" mnemonicParsing="false" onMouseClicked="#clickFive" prefHeight="56.0" prefWidth="101.0" text="5">
+         <font>
+            <Font size="28.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="six" layoutX="437.0" layoutY="178.0" mnemonicParsing="false" onMouseClicked="#clickSix" prefHeight="64.0" prefWidth="101.0" text="6">
+         <font>
+            <Font size="28.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="one" layoutX="145.0" layoutY="100.0" mnemonicParsing="false" onMouseClicked="#clickOne" prefHeight="56.0" prefWidth="113.0" text="1">
+         <font>
+            <Font size="28.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="two" layoutX="300.0" layoutY="96.0" mnemonicParsing="false" onMouseClicked="#clickTwo" prefHeight="64.0" prefWidth="101.0" text="2">
+         <font>
+            <Font size="28.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="three" layoutX="438.0" layoutY="92.0" mnemonicParsing="false" onMouseClicked="#clickThree" prefHeight="64.0" prefWidth="101.0" text="3">
+         <font>
+            <Font size="28.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="back" layoutX="285.0" layoutY="336.0" mnemonicParsing="false" onMouseClicked="#clickBack" prefHeight="64.0" prefWidth="113.0" text="Back">
+         <font>
+            <Font size="25.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="enter" layoutX="434.0" layoutY="334.0" mnemonicParsing="false" onMouseClicked="#clickEnter" prefHeight="64.0" prefWidth="101.0" text="Enter">
+         <font>
+            <Font size="28.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="clear" layoutX="152.0" layoutY="340.0" mnemonicParsing="false" onMouseClicked="#clickClear" prefHeight="59.0" prefWidth="101.0" text="Clear">
+         <font>
+            <Font size="28.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Label fx:id="code" alignment="CENTER" layoutX="138.0" prefHeight="49.0" prefWidth="370.0" text="Enter Code">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

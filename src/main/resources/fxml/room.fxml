@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:id="room" focusTraversable="true" onKeyPressed="#onKeyPressed" onKeyReleased="#onKeyReleased" prefHeight="470.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="nz.ac.auckland.se206.controllers.RoomController">
+   <children>
+      <ImageView fitHeight="386.0" fitWidth="393.0" layoutX="4.0" layoutY="53.0">
+         <image>
+            <Image url="@../images/shipResized.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="62.0" fitWidth="49.0" layoutX="115.0" layoutY="375.0">
+         <image>
+            <Image url="@../images/safety-158528_1280.png" />
+         </image>
+      </ImageView>
+      <Rectangle fx:id="bottle" arcHeight="5.0" arcWidth="5.0" fill="#1f93ff" focusTraversable="true" height="75.0" layoutX="200.0" layoutY="355.0" onMouseClicked="#clickBottle" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="20.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Rectangle>
+      <Rectangle fx:id="window" arcHeight="5.0" arcWidth="5.0" fill="#1f93ff" focusTraversable="true" height="177.0" layoutX="224.0" layoutY="156.0" onMouseClicked="#clickWindow" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="86.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Rectangle>
+      <Rectangle fx:id="chest" arcHeight="5.0" arcWidth="5.0" fill="#1f93ff" focusTraversable="true" height="86.0" layoutX="323.0" layoutY="326.0" onMouseClicked="#clickChest" onMouseEntered="#hoverChest" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="58.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Rectangle>
+      <Label fx:id="countdownLabel" alignment="CENTER" layoutX="132.0" layoutY="-6.0" prefHeight="64.0" prefWidth="143.0" text="Label" textAlignment="CENTER">
+         <font>
+            <Font name="Calibri Light" size="60.0" />
+         </font>
+      </Label>
+      <Label layoutX="84.0" layoutY="431.0" prefHeight="28.0" prefWidth="407.0" text="Image created by upklyak from freepik.">
+         <font>
+            <Font size="13.0" />
+         </font></Label>
+      <Rectangle fx:id="candle" arcHeight="5.0" arcWidth="5.0" fill="#1f93ff" focusTraversable="true" height="96.0" layoutX="275.0" layoutY="327.0" onMouseClicked="#clickCandle" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="40.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Rectangle>
+      <Rectangle fx:id="roofCandle" arcHeight="5.0" arcWidth="5.0" fill="#1f93ff" focusTraversable="true" height="52.0" layoutX="328.0" layoutY="142.0" onMouseClicked="#clickRoofCandle" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="49.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Rectangle>
+      <Rectangle fx:id="note" arcHeight="5.0" arcWidth="5.0" fill="#1f93ff" focusTraversable="true" height="43.0" layoutX="127.0" layoutY="283.0" onMouseClicked="#clickNote" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="50.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Rectangle>
+      <Rectangle fx:id="shelf" arcHeight="5.0" arcWidth="5.0" fill="#1f93ff" focusTraversable="true" height="62.0" layoutX="89.0" layoutY="194.0" onMouseClicked="#clickShelf" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="65.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Rectangle>
+      <Rectangle fx:id="chair" arcHeight="5.0" arcWidth="5.0" fill="#1f93ff" focusTraversable="true" height="209.0" layoutX="24.0" layoutY="204.0" onMouseClicked="#clickChair" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="65.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Rectangle>
+      <Rectangle fx:id="safe" arcHeight="5.0" arcWidth="5.0" fill="#1f93ff" focusTraversable="true" height="52.0" layoutX="115.0" layoutY="380.0" onMouseClicked="#clickSafe" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="50.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Rectangle>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="-2.0" layoutY="445.0" prefHeight="17.0" prefWidth="400.0" text="When the cursor becomes a hand, click to interact" textAlignment="CENTER">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

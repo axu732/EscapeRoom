@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="470.0" prefWidth="680.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="385.0" fitWidth="680.0">
+         <image>
+            <Image url="@../images/cage-1161869_640.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="14.0" layoutY="377.0" prefHeight="57.0" prefWidth="668.0" text="Arrgh... Ye be locked in the hold for tryin' to steal our treasure!">
+         <font>
+            <Font name="Nirmala UI" size="23.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="6.0" layoutY="412.0" prefHeight="44.0" prefWidth="668.0" text="You took too long and were caught!" textAlignment="CENTER">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

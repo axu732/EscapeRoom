@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="470.0" prefWidth="280.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="nz.ac.auckland.se206.controllers.ChatController">
+  <children>
+    <TextArea fx:id="chatTextArea" editable="false" layoutX="13.0" layoutY="45.0" prefHeight="345.0" prefWidth="257.0" wrapText="true" />
+    <TextField fx:id="inputText" layoutX="13.0" layoutY="402.0" prefHeight="38.0" prefWidth="211.0" promptText="Click here and type for messages" />
+    <Button fx:id="sendButton" layoutX="228.0" layoutY="408.0" mnemonicParsing="false" onAction="#onSendMessage" text="Send">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Label alignment="CENTER" layoutX="28.0" layoutY="10.0" prefHeight="30.0" prefWidth="221.0" text="Talk to your Assistant">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+  </children>
+</AnchorPane>
